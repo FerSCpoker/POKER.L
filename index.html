@@ -1,14 +1,40 @@
 
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tabla Preflop</title>
-    <script defer src="index.js"></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Selector de Tablas Preflop</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f8f9fa;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      font-size: 18px;
+      padding: 12px 24px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Seleccioná el tipo de tabla preflop</h1>
+  <a href="cash/index.html"><button class="btn">Cash Game</button></a>
+  <a href="torneos/index.html"><button class="btn">Torneos</button></a>
+</body>
 </html>
